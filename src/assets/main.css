@@ -1,0 +1,47 @@
+@import './base.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.url-input {
+  width: 300px;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  height: 40px;
+  border: 2px black solid;
+  border-radius: 5px;
+}
+
+.url-button {
+  height: 40px;
+  padding: 11px 10px;
+  border: 2px black solid;
+  border-radius: 5px;
+}
+
+p {
+  text-align: center;
+}

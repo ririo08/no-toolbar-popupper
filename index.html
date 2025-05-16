@@ -1,25 +1,13 @@
 <!DOCTYPE html>
-<html lang="ja">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>No Toolbox Pop Upper</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <div class="wrapper">
-    <p class="title">No Toolbox Pop Upper</p>
-    <form action="" onsubmit="javascript:void(0);return false;">
-      <input id="urlBox" type="url" placeholder="https://example.com">
-      <button id="button" type="submit">Go</button>
-    </form>
-    <p>これは何？</p>
-    <p>入力したURLをツールバー（例えばブックマークバーなど）なしで開くことが出来ます。</p>
-  </div>
-  <script src="popup.js"></script>
-</body>
-
+<html lang="">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Toolbox Pop Upper</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>
